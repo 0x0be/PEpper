@@ -57,10 +57,10 @@ and more columns..
 - *Structured Exception Handling* (**SEH**) support
 - *Thread Local Storage* (**TLS**) support
 - Presence of **manifest**
-- Presence of **versionSuspicious entropy**
-- **Packer** detection
+- Presence of **version**
 - Presence of **digital certificate**
-- Detection ratio on **VirusTotal** database
+- **Packer** detection
+- **VirusTotal** database detection
 - **Import hash**
 
 # Notes
