@@ -68,5 +68,13 @@ and more columns..
 - Can be run on *single* or *multiple* PE (placed inside a directory)
 - Output will be saved (in the same directory of *pepper.py*) as **output.csv**
 - To use **VirusTotal scan**, add your private key in the module called "virustotal.py" (Internet connection required)
-- Of course, that will increase the scan time
 - <img alt="Software License" src="https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square">
+
+# Credits
+
+Many thanks to those who indirectly helped me in this work, specially:
+
+- The [LIEF](https://github.com/lief-project/LIEF) project and its awesome library
+- [PEstudio](https://www.winitor.com/), a really amazing software to analyze PE
+- [PEframe](https://github.com/guelfoweb/peframe) from [guelfoweb](https://github.com/guelfoweb), an incredible widespread tool to perform static analysis on Portable Executable malware and malicious MS Office documents
+- [Yara-Rules](https://github.com/Yara-Rules/rules) project, which provides compiled signatures, classified and kept as up to date as possible
