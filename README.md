@@ -18,13 +18,16 @@ eva@paradise:~$ python3 pepper.py ./malware_dir
 
 # Screenshot
 
- <div class="row">
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/1.png" alt="Screenshot" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/2.png" alt="Screenshot" style="width:100%">
-</div> 
+<table style="width:100%">
+		<tr>
+			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/1.png" ></td>
+			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/2.png" ></td>
+		</tr>
+		<tr>
+			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/3.png" ></td>
+			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/4.png" ></td>
+		</tr>
+</table>
 
 and more rows..
 
