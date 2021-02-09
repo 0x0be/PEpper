@@ -10,7 +10,7 @@
 # Installation
 
 ```console
-eva@paradise:~$ git clone https://github.com/Th3Hurrican3/PEpper/
+eva@paradise:~$ git clone https://github.com/blackeko/PEpper/
 eva@paradise:~$ cd PEpper
 eva@paradise:~$ pip3 install -r requirements.txt
 eva@paradise:~$ python3 pepper.py ./malware_dir
@@ -20,12 +20,12 @@ eva@paradise:~$ python3 pepper.py ./malware_dir
 
 <table style="width:100%">
 		<tr>
-			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/1.png" ></td>
-			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/2.png" ></td>
+			<td><img src="https://raw.githubusercontent.com/blackeko/PEpper/media/1.png" ></td>
+			<td><img src="https://raw.githubusercontent.com/blackeko/PEpper/media/2.png" ></td>
 		</tr>
 		<tr>
-			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/3.png" ></td>
-			<td><img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/4.png" ></td>
+			<td><img src="https://raw.githubusercontent.com/blackeko/PEpper/media/3.png" ></td>
+			<td><img src="https://raw.githubusercontent.com/blackeko/PEpper/media/4.png" ></td>
 		</tr>
 </table>
 
@@ -34,7 +34,7 @@ and more rows..
 # CSV output
 
 <p>
-  <img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/csv.png" alt="outcome">
+  <img src="https://raw.githubusercontent.com/blackeko/PEpper/media/csv.png" alt="outcome">
 </p>
 
 and more columns..
