@@ -2,6 +2,8 @@ import lief
 from . import colors
 import datetime
 
+lief.logging.set_level(lief.logging.LOGGING_LEVEL.ERROR)
+
 # check for suspicious debug timestamps
 
 
@@ -10,7 +12,10 @@ def get(malware, csv):
         "DEBUG TIME-STAMP", " -------------------------------" + colors.DEFAULT)))
     binary = lief.parse(malware)
     if binary.has_debug:
-        dbg_time = datetime.datetime.fromtimestamp(binary.debug.timestamp)
+        debug_list = binary.debug
+        for item in debug_list:
+          ts = item.timestamp
+        dbg_time = datetime.datetime.fromtimestamp(ts)
         if dbg_time > datetime.datetime.now():
             print((colors.RED + '[' + '\u2713' + "]" + colors.DEFAULT + " The age (%s) of the debug file is suspicious" % (
                 str(dbg_time))))
