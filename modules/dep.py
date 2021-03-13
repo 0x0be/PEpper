@@ -1,6 +1,8 @@
 import lief
 from . import colors
 
+lief.logging.set_level(lief.logging.LOGGING_LEVEL.ERROR)
+
 # check if PE supports Data Execution Prevention
 
 
