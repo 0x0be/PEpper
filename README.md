@@ -69,7 +69,7 @@ and more columns..
 # Notes
 
 - Can be run on *single* or *multiple* PE (placed inside a directory)
-- Output will be saved (in the same directory of *pepper.py*) as **output.csv**
+- Output will be saved (in the same directory of *pepper.py*) as **FILENAME-output.csv**
 - To use **VirusTotal scan**, add your private key in the module called "virustotal.py" (Internet connection required)
 - <img alt="Software License" src="https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square">
 

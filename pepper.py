@@ -11,16 +11,17 @@ import sys
 def main():
     argv.get()
     banner.get()
-    csv = open("output.csv", 'w')
+    filename = sys.argv[1]
+    csv = open(filename+"-output.csv", 'w')
     csv.write("id,susp_entrop_ratio,susp_name_ratio,susp_code_size,imphash,n_exports,n_antidbg,n_antivm,n_susp_api,"
               "has_gs, "
               "has_cfg,has_dep,has_aslr,has_seh,has_tls,susp_dbg_ts,n_url,n_ip,has_manifest,has_version,"
               "n_susp_strings,is_packed,"
               "has_certificate,"
               "susp_virustotal_ratio,n_yara_rules")
-    run.get(sys.argv[1], csv)
+    run.get(filename, csv)
     csv.close()
-    output.get()
+    output.get(filename)
 
 
 if __name__ == "__main__":
