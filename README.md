@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/logo.jpg" alt="mitmlogo">
+    <img src="https://raw.githubusercontent.com/Th3Hurrican3/PEpper/media/logo.jpg" alt="PEpper logo">
 </p>
 
 <h3 align="center">PEpper</h3>
