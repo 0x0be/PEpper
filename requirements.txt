@@ -1,6 +1,6 @@
 pefile == 2019.4.18
 yara_python == 4.0.5
-requests == 2.25.1
+requests == 2.31.0
 lief == 0.11.4
 python-magic == 0.4.22
 modules == 1.0.0
